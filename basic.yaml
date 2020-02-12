@@ -11,3 +11,8 @@
       - htop
       - vim
       - lsof
+  - name: Create a directory if it does not exist
+    file:
+      path: /www/
+      state: directory
+
