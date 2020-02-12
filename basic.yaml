@@ -2,7 +2,7 @@
 - hosts: all
   tasks:
   - name: ensure basic packages installed
-    yum:
+    package:
       name: "{{ packages }}"
     vars:
       packages:
