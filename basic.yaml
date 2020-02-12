@@ -1,0 +1,13 @@
+---
+- hosts: webservers
+  tasks:
+  - name: ensure basic packages installed
+    yum:
+      name: "{{ packages }}"
+    vars:
+      packages:
+      - jq
+      - net-tools
+      - htop
+      - vim
+      - epel-release
