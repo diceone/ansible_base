@@ -6,8 +6,8 @@
       name: "{{ packages }}"
     vars:
       packages:
-      - jq
+      - epel-release
       - net-tools
       - htop
       - vim
-      - epel-release
+      - lsof
