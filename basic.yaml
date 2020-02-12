@@ -7,7 +7,6 @@
     vars:
       packages:
       - epel-release
-      - net-tools
       - htop
       - vim
       - lsof
